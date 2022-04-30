@@ -1,5 +1,6 @@
 
 class Spiderman {
+
     constructor(name, age, actor, movies, studio){
         this.name = name
         this.age = age
@@ -11,6 +12,7 @@ class Spiderman {
     getInfo(){
         return `Hey, I'm ${this.name} from Marvel studio`
     }
+    
 }
 
 module.exports = Spiderman
