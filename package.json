@@ -1,0 +1,22 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Diseño_software_TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieltorres519/spiderverse.git"
+  },
+  "author": "gabrieltorres519",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieltorres519/spiderverse/issues"
+  },
+  "homepage": "https://github.com/gabrieltorres519/spiderverse#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
