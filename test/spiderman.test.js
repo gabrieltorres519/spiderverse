@@ -12,15 +12,15 @@ describe("Unit test for spiderman class", () => {
         // Aquí se escribe el código que se quere usar
 
         //Instanciamos un objeto spiderman con la información del requerimiento 
-      const andrewGarfield = new Spiderman("Spiderman Sony",31,"Andrew Garfield",2,"Sony");
+      const andrewGarfield = new Spiderman("Andrew Garfield",31,"Spiderman Sony",2,"Sony");
 
 
       //Validamos que el código funcione de la forma esperada
-      expect(andrewGarfield.name).toBe("Spiderman Sony");
+      expect(andrewGarfield.name).toBe("Andrew Garfield");
       expect(andrewGarfield.age).toBe(31);
-      expect(andrewGarfield.actor).toBe("Andrew Garfield");
+      expect(andrewGarfield.actor).toBe("Spiderman Sony");
       expect(andrewGarfield.movies).toBe(2);
-      expect(andrewGarfield.studio).toBe("Sonyyyyyyyyyyyy");
+      expect(andrewGarfield.studio).toBe("Sony");
       
     });
   })
@@ -36,11 +36,11 @@ tomHolland.getInfo() // esto necesita regresar: "Hey, I'm Tom Holland from Marve
 */ 
 
 
-test("2nd Unit test for Spiderman class",() =>{
+describe("2nd Unit test for Spiderman class",() =>{
     test("1) Use the method getInfo",() =>{
     
         //Uso del código necesario
-        const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marvel")
+        const tomHolland = new Spiderman("Tom Holland",25,"Spiderman Marvel",5,"Marvel")
 
 
         //Validando el comportamiento esperado
