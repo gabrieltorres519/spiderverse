@@ -1,4 +1,4 @@
-/*Requerimiento
+/*Requerimiento 1
 
 Crea una clase spiderman que tenga como atributos los siguientes campos: nombre, edad, actor que lo interpretó, 
 número de películas en las que apareció, estudio de cine.
@@ -24,3 +24,26 @@ describe("Unit test for spiderman class", () => {
       
     });
   })
+
+
+  /*Requerimiento 2
+
+Queremos usar un método que nos regrese la siguiente información: nombre y estudio al que pertenece el spiderman instanciado.
+
+Ejemplo:
+
+tomHolland.getInfo() // esto necesita regresar: "Hey, I'm Tom Holland from Marvel studio"
+*/ 
+
+
+test("2nd Unit test for Spiderman class",() =>{
+    test("1) Use the method getInfo",() =>{
+    
+        //Uso del código necesario
+        const tomHolland = new Spiderman("Spiderman Marvel",25,"Tom Holland",5,"Marvel")
+
+
+        //Validando el comportamiento esperado
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
+    });
+});
