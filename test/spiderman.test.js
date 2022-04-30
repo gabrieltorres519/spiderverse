@@ -4,6 +4,8 @@ Crea una clase spiderman que tenga como atributos los siguientes campos: nombre,
 número de películas en las que apareció, estudio de cine.
 */ 
 
+const Spiderman = require("../app/spiderman");
+
 describe("Unit test for spiderman class", () => {
     test('1) Create an spiderman object', () => {
 
