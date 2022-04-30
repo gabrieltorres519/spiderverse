@@ -1,6 +1,6 @@
 class Spiderman {
-    constructor(){
-
+    constructor(name){
+        this.name = name
     }
 }
 
