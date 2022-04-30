@@ -19,7 +19,7 @@ describe("Unit test for spiderman class", () => {
       expect(andrewGarfield.name).toBe("Spiderman Sony");
       expect(andrewGarfield.age).toBe(31);
       expect(andrewGarfield.actor).toBe("Andrew Garfield");
-      expect(andrewGarfield.movies).toBe(31);
+      expect(andrewGarfield.movies).toBe(2);
       expect(andrewGarfield.studio).toBe("Sony");
       
     });
